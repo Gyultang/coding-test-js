@@ -4,6 +4,5 @@ function solution(my_string, n) {
     for(let x of arr){
        answer+= x.repeat(n)
     }
-   
     return answer
 }
